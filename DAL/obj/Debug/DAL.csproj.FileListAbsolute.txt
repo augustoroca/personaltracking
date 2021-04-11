@@ -1,0 +1,6 @@
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\DAL\bin\Debug\DAL.dll
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\DAL\bin\Debug\DAL.pdb
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\DAL\obj\Debug\DAL.dll
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\DAL\obj\Debug\DAL.pdb

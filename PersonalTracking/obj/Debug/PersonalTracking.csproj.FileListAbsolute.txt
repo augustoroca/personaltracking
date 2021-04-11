@@ -1,0 +1,15 @@
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\PersonalTracking\bin\Debug\PersonalTracking.exe.config
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\PersonalTracking\bin\Debug\PersonalTracking.exe
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\PersonalTracking\bin\Debug\PersonalTracking.pdb
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\PersonalTracking\bin\Debug\BLL.dll
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\PersonalTracking\bin\Debug\DAL.dll
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\PersonalTracking\bin\Debug\BLL.pdb
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\PersonalTracking\bin\Debug\DAL.pdb
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.csprojAssemblyReference.cache
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.FrmLogin.resources
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.Properties.Resources.resources
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.csproj.GenerateResource.cache
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.csproj.CoreCompileInputs.cache
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.csproj.CopyComplete
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.exe
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.pdb
