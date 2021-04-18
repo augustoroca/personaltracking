@@ -29,13 +29,13 @@ namespace PersonalTracking
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-
+            FrmEmployee frm = new FrmEmployee();
+            this.Hide();
+            frm.ShowDialog();
+            this.Visible = true;
         }
 
-        private void btnAdd_Click(object sender, EventArgs e)
-        {
-
-        }
+     
 
         private void txtUserNo_TextChanged(object sender, EventArgs e)
         {
@@ -50,6 +50,14 @@ namespace PersonalTracking
         private void txtUserNo_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = General.isNumber(e);
+        }
+
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+            FrmEmployee frm = new FrmEmployee();
+            this.Hide();
+            frm.ShowDialog();
+            this.Visible = true;
         }
     }
 }
