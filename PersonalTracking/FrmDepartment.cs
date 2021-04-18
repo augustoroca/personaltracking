@@ -32,7 +32,7 @@ namespace PersonalTracking
             else
             {
                 DEPARTMENT department = new DEPARTMENT();
-                department.DepartamentName = txtDepartment.Text;
+                department.DepartmentName = txtDepartment.Text;
                 BLL.DepartmentBLL.AddDepartment(department);
                 MessageBox.Show("Department was added");
                 txtDepartment.Clear();
