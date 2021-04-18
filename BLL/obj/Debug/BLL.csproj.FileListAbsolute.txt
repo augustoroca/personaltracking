@@ -7,3 +7,4 @@ C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\P
 C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\BLL\obj\Debug\BLL.dll
 C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\BLL\obj\Debug\BLL.pdb
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\BLL\bin\Debug\DAL.dll.config

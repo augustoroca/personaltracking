@@ -26,3 +26,4 @@ C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\P
 C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.FrmSalary.resources
 C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.FrmSalaryList.resources
 C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.FrmTask.resources
+C:\Users\rocaau\Documents\Programacion orientada a objetos en c# con proyectos\PersonalTracking\PersonalTracking\bin\Debug\DAL.dll.config
