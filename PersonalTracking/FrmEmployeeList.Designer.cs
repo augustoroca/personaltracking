@@ -267,6 +267,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
             this.Name = "FrmEmployeeList";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Employee List";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

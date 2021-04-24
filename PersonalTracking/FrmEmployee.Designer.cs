@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txtPass = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.chkAdmin = new System.Windows.Forms.CheckBox();
+            this.btnCheck = new System.Windows.Forms.Button();
             this.txtUserNo = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnCheck = new System.Windows.Forms.Button();
             this.txtAdress = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.chkAdmin = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtSurname = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtImagePath = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.txtPass = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.btnBrowse = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
@@ -74,6 +74,46 @@
             this.panel1.Size = new System.Drawing.Size(723, 100);
             this.panel1.TabIndex = 0;
             // 
+            // txtPass
+            // 
+            this.txtPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPass.Location = new System.Drawing.Point(423, 14);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.Size = new System.Drawing.Size(100, 26);
+            this.txtPass.TabIndex = 2;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(333, 17);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(86, 20);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Password";
+            // 
+            // chkAdmin
+            // 
+            this.chkAdmin.AutoSize = true;
+            this.chkAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkAdmin.Location = new System.Drawing.Point(544, 19);
+            this.chkAdmin.Name = "chkAdmin";
+            this.chkAdmin.Size = new System.Drawing.Size(108, 24);
+            this.chkAdmin.TabIndex = 3;
+            this.chkAdmin.Text = "Is Admin?";
+            this.chkAdmin.UseVisualStyleBackColor = true;
+            // 
+            // btnCheck
+            // 
+            this.btnCheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCheck.Location = new System.Drawing.Point(205, 10);
+            this.btnCheck.Name = "btnCheck";
+            this.btnCheck.Size = new System.Drawing.Size(91, 30);
+            this.btnCheck.TabIndex = 1;
+            this.btnCheck.Text = "Check";
+            this.btnCheck.UseVisualStyleBackColor = true;
+            this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
+            // 
             // txtUserNo
             // 
             this.txtUserNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -94,16 +134,6 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "UserNo";
             // 
-            // btnCheck
-            // 
-            this.btnCheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCheck.Location = new System.Drawing.Point(205, 10);
-            this.btnCheck.Name = "btnCheck";
-            this.btnCheck.Size = new System.Drawing.Size(91, 30);
-            this.btnCheck.TabIndex = 1;
-            this.btnCheck.Text = "Check";
-            this.btnCheck.UseVisualStyleBackColor = true;
-            // 
             // txtAdress
             // 
             this.txtAdress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -122,17 +152,6 @@
             this.label2.Size = new System.Drawing.Size(55, 20);
             this.label2.TabIndex = 4;
             this.label2.Text = "Name";
-            // 
-            // chkAdmin
-            // 
-            this.chkAdmin.AutoSize = true;
-            this.chkAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkAdmin.Location = new System.Drawing.Point(544, 19);
-            this.chkAdmin.Name = "chkAdmin";
-            this.chkAdmin.Size = new System.Drawing.Size(108, 24);
-            this.chkAdmin.TabIndex = 3;
-            this.chkAdmin.Text = "Is Admin?";
-            this.chkAdmin.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -178,24 +197,6 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
-            // txtPass
-            // 
-            this.txtPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPass.Location = new System.Drawing.Point(423, 14);
-            this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(100, 26);
-            this.txtPass.TabIndex = 2;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(333, 17);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 20);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Password";
-            // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
@@ -209,6 +210,7 @@
             this.btnBrowse.TabIndex = 3;
             this.btnBrowse.Text = "Browse";
             this.btnBrowse.UseVisualStyleBackColor = true;
+            this.btnBrowse.Click += new System.EventHandler(this.btnBrowse_Click);
             // 
             // label6
             // 
@@ -246,6 +248,7 @@
             this.cmbDeparment.Name = "cmbDeparment";
             this.cmbDeparment.Size = new System.Drawing.Size(126, 28);
             this.cmbDeparment.TabIndex = 5;
+            this.cmbDeparment.SelectedIndexChanged += new System.EventHandler(this.cmbDeparment_SelectedIndexChanged);
             // 
             // label7
             // 
@@ -351,7 +354,9 @@
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label2);
             this.Name = "FrmEmployee";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Employee";
+            this.Load += new System.EventHandler(this.FrmEmployee_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
